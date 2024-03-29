@@ -1,0 +1,28 @@
+.frame_carousel{
+    display:flex;
+    padding: 0 10%;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    margin: 40px 0;
+}
+
+#frame_values{
+    flex-grow: 1;
+    display:flex;
+    justify-content: start;
+    /* user-select:none; */
+
+}
+
+.frame_value{
+    margin: 0 10px;
+    /* width: 100%;  */
+    display: flex;
+    font-family: poppins;
+    font-weight: lighter;
+    padding: 3px 20px;
+    border-radius: 20px;
+    border: solid 1px;
+    cursor: pointer;
+    user-select: none;
+}
